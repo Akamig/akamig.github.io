@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-image: url("fuckyou.png");
+  background-size: 1280px;
+  background-position: center;
+  background-repeat: repeat;
+  animation: spin 3s linear infinite;
+  padding-top: 182px;
+}
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 4.4444rem;
+  font-weight: medium;
+}
+p {
+  font-family: Comic Sans MS, 나눔스퀘어;
+  font-size: 2rem;
+
+  line-height: 1.222222222222222222em;
+}
+@keyframes spin {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+    transform: rotate3d(1, 1, 1, 360deg) rotate(360deg);
+  }
+}
