@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'InterDisplay';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://rsms.me/inter/font-files/InterDisplay-Regular.woff2?v=3.18") format("woff2"),
+       url("https://rsms.me/inter/font-files/InterDisplay-Regular.woff?v=3.18") format("woff");
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://rsms.me/inter/font-files/InterDisplay-Italic.woff2?v=3.18") format("woff2"),
+       url("https://rsms.me/inter/font-files/InterDisplay-Italic.woff?v=3.18") format("woff");
+}
+
+@font-face {
+  font-family: 'InterDisplay';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://rsms.me/inter/font-files/InterDisplay-Bold.woff2?v=3.18") format("woff2"),
+       url("https://rsms.me/inter/font-files/InterDisplay-Bold.woff?v=3.18") format("woff");
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style:  italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://rsms.me/inter/font-files/InterDisplay-BoldItalic.woff2?v=3.18") format("woff2"),
+       url("https://rsms.me/inter/font-files/InterDisplay-BoldItalic.woff?v=3.18") format("woff");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "InterDisplay", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  letter-spacing: -0.02rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
